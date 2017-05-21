@@ -26,3 +26,4 @@
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
 (require 'init-evil)
+(require 'init-gui-frames)
