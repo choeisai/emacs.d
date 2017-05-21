@@ -13,3 +13,9 @@
 (setq gc-cons-threshold (* 128 1024 1024))
 (add-hook 'after-init-hook
           (lambda () (setq gc-cons-threshold sanityinc/initial-gc-cons-threshold)))
+
+;;----------------------------------------------------------------------------
+;; Bootstrap config
+;;----------------------------------------------------------------------------
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(require 'init-elpa)         ;; Machinery for installing required packages
