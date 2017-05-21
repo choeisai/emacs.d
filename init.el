@@ -20,3 +20,4 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (require 'init-elpa)         ;; Machinery for installing required packages
 (require 'init-use-package)  ;; Set up use-package
+(require 'init-exec-path)    ;; Set up $PATH
