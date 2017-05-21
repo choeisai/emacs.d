@@ -27,3 +27,4 @@
 ;;----------------------------------------------------------------------------
 (require 'init-evil)
 (require 'init-gui-frames)
+(require 'init-editing-utils)
