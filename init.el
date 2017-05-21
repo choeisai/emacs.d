@@ -21,3 +21,8 @@
 (require 'init-elpa)         ;; Machinery for installing required packages
 (require 'init-use-package)  ;; Set up use-package
 (require 'init-exec-path)    ;; Set up $PATH
+
+;;----------------------------------------------------------------------------
+;; Load configs for specific features and modes
+;;----------------------------------------------------------------------------
+(require 'init-evil)
